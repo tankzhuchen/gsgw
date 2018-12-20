@@ -1,16 +1,20 @@
+
+
 <nav class="navbar navbar-default" role="navigation">
+
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <a class="navbar-brand" href="/">Job Listing </a>
+            <a class="navbar-brand" href="/"><i class="fa fa-diamond" aria-hidden="true">上海古斯</i></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <%= link_to("登入", '#') %>
-                </li>
+
+                <li><%= link_to("行业资讯", '#') %></li>
+                <li><%= link_to("关于我们", about_index_path) %></li>
+
             </ul>
         </div>
         <!-- /.navbar-collapse -->
